@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfBackgroundWorkerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBackgroundWorkerApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="203.273" Width="318.588">
+    <Grid Margin="0,0,0,9">
+        <Label x:Name="LblResult" Content="LblResult" HorizontalAlignment="Left" Margin="22,25,0,0" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="PgbTest" HorizontalAlignment="Left" Height="28" Margin="10,64,0,0" VerticalAlignment="Top" Width="291"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="36,105,0,0" VerticalAlignment="Top" Width="91" Height="45" Click="Button_Click"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="173,105,0,0" VerticalAlignment="Top" Width="102" Height="45" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
